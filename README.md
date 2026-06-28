@@ -5,7 +5,7 @@
 ![SQL](https://img.shields.io/badge/SQL-SQLite-07405E?logo=sqlite&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c)
 
-> A data analytics project that uncovers which network protocols and services are most associated with malicious traffic — analyzed using **Python (Pandas)** and validated with **SQL**.
+> A project that uncovers which network protocols and services are most associated with malicious traffic — analyzed using **Python (Pandas)** and validated with **SQL**.
 
 ---
 
@@ -88,3 +88,23 @@ python explore.py
 ---
 
 ## 📂 Project Structure
+
+├── explore.py                  # Main analysis script
+
+├── class_distribution.png      # Chart: normal vs anomaly
+
+├── protocol_attacks.png        # Chart: protocol-wise attacks
+
+├── service_attack_rate.png     # Chart: service-wise attack rate
+
+└── README.md
+
+> 📌 Dataset CSVs are excluded via `.gitignore` (too large for GitHub) — download from the Kaggle link above to reproduce results.
+
+---
+
+## 🚀 What I Learned
+
+- Practical EDA (exploratory data analysis) on real security data
+- Translating Pandas operations into equivalent SQL queries
+- Communicating data-driven insights clearly through visualization
